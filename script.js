@@ -1,16 +1,16 @@
 // JS Code
 // Lock 
-// let input = prompt("Enter Passkey:");
-// let output = "ZERODHA10";
-// let body = document.querySelector('body');
-// function answer(){
-//     if(input.trim() === output){
-//         body.style.display = 'inline';
-//     } else{
-//         body.style.display = 'none';
-//     }
-// }
-// answer();
+let input = prompt("Enter Passkey:");
+let output = "ZERODHA10";
+let body = document.querySelector('body');
+function answer(){
+    if(input.trim() === output){
+        body.style.display = 'inline';
+    } else{
+        body.style.display = 'none';
+    }
+}
+answer();
 // Icon nav Menu Adjacment
 let menuIcon = document.querySelector("#Menu");
 
