@@ -1,0 +1,260 @@
+* {
+    Margin: 0px;
+    Padding: 0px;
+    Font-family: Inter,  sans-serif;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: none;
+}
+/* Styling Starts "Body" */
+/* Navbar */
+.Navbar {
+    height: 67.484px;
+    width: 100%;
+   background-color: #fff;
+   box-shadow: 2px 1px 2px #eee;
+   display: flex;
+   position: fixed;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+/* Nav-Bar Padding */
+
+
+@media(max-width: 1100px){
+    .Navbar {
+        Padding:0px 20px 0px 20px ;
+    }
+}
+/* Nav-Content */
+
+.Nav-Content {
+    height: 67.484px;
+    width: 1100px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Logo  */
+
+.Nav-Logo {
+    Height: 67.484px;
+    Width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: auto;
+}
+#Logo {
+    height: 17px;
+}
+@media (max-width: 560px) {
+    #Logo {
+        height: 14.4px;
+    }
+}
+@media(max-width: 960px)and (min-width: 561px){
+    #Logo{
+        height: 19.7px;
+    }
+}
+/* Nav-Guide */
+
+.Nav-Guide {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* Anchor Tag Remove Text Decoration */
+a {
+    text-decoration: none;
+}
+/* Nav-Guide Options */
+
+#SignUp, #About ,#Products, #Pricing, #Support {
+    color: #666666;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    font-size: 14.4px;
+    letter-spacing: 0.4px;
+    transition-duration: 0.2s;
+}
+/* Nav-Guide Options Hover */
+#SignUp:hover, #About:hover, #Products:hover, #Pricing:hover, #Support:hover {
+    color: #387ed1;;
+}
+
+/* Menue Icon */
+#Menu-Icon {
+    Padding: 20px 0px 20px 15px;
+    cursor: pointer;
+}
+#Menu{
+    padding: 20px 0px 0xp 0px;
+}
+
+/* Navbar Width Guide */
+
+@media (max-width: 960px){
+    #SignUp, #About ,#Products, #Pricing, #Support {
+        display: none;
+    }
+}
+
+/* Main */
+
+main {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+/* Landing image */
+#Landing-Image {
+    max-width:1019.030px;
+    margin-bottom: 60px;
+}
+/* Landing Page */
+.Landing-Page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 90px;
+    overflow-x: none;
+}
+/* Landing Text */
+
+#Landing-Text {
+    font-size: 44px;
+    text-align: center;
+    font-weight: 500;
+    color: #424242;
+}
+/* Sub landing Text */
+
+#Sub-Landing-Text {
+    color: #424242;
+    font-size: 20px;
+    margin: 10px 0px 20px 0px;
+    text-align: center;
+}
+
+/* Home Signup Button */
+
+#SignUp-Homepage {
+    height: 45.03px;
+    min-width: 176px;
+    padding: 10px 30px 10px 30px;
+    font-size: 19.2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #387ed1;
+    border: none;
+    margin-top: 25px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#SignUp-Homepage:hover {
+ background-color: #222;
+}
+/* Truth-Section */
+
+.Truth-Section {
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    Margin-top: 30px;
+    Padding: 30px 20px 30px 20px;
+}
+#Heading-Truth {
+    Font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+#Heading-Truth,#Sub-Text,#Sub-Title {
+    width: 432.65px;
+    color: #423442; 
+    letter-spacing: 1px;
+}
+/* Sub Landing */
+#Sub-Title {
+    font-size: 20px;
+    height: 34px;
+}
+#Sub-Text { 
+    color: #666666;
+    margin: 5px 0px 32px 0px;
+    line-height: 26px;;
+}
+#Ecosystem {
+    height: 623.328px;
+    width: 612.094px;
+}
+.Part2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center ;
+    margin-top: 30px;
+    width: 436px;
+}
+#Links-Sub1, #Links-Sub2 {
+    font-size: 16px;
+    font-weight: 520;
+    color: #387ed1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#Links-Sub2 {
+    margin-left: 24px;
+}
+#Links-Sub1:hover, #Links-Sub2:hover, #Sub-a:hover {
+    color: #464646;
+}
+
+/* Trust Device Size Adjasment */
+
+@media(max-width: 890px){
+    .Truth-Section{
+        flex-direction: column;
+    }
+}
+
+#a { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+/* Down-Logos */
+.Down-Logos {
+    Margin-top: 60px;
+}
+
+#Media{
+    height: 40px;
+}
